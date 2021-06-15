@@ -20,4 +20,5 @@ module.exports = {
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)'
   ],
   testURL: 'http://localhost/',
+  setupFilesAfterEnv: ['<rootDir>/jest-setup.js'],
 }
