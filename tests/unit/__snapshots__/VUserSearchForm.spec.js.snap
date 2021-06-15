@@ -2,6 +2,8 @@
 
 exports[`VUserSearchForm renders the component 1`] = `
 <form>
-  <elinput-stub value="" type="text" autocomplete="off" validateevent="true" placeholder="Pesquise o usuário" class="search-form__input"></elinput-stub>
+  <el-input-stub value="" type="text" autocomplete="off" validateevent="true" placeholder="Pesquise o usuário" class="search-form__input">
+    <el-button-stub type="default" icon="el-icon-search" nativetype="submit" class="search-form__button"></el-button-stub>
+  </el-input-stub>
 </form>
 `;

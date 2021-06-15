@@ -25,8 +25,8 @@ describe('UserView', () => {
 
     return {
       wrapper,
-      userSearchForm: () => wrapper.find(VUserSearchForm),
-      userProfile: () => wrapper.find(VUserProfile)
+      userSearchForm: () => wrapper.getComponent(VUserSearchForm),
+      userProfile: () => wrapper.getComponent(VUserProfile)
     }
   }
 
