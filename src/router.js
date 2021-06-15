@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-const UserView = () => import('@/views/UserView')
+const UserView = () => import('@/views/UserView.vue')
 
 Vue.use(Router)
 
