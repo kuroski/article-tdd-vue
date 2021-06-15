@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    ".vscode",
+    "coverage",
+    ".npm",
+  ],
+  "typeAcquisition": {
+    "enable": true
+  }
+}
