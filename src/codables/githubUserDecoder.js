@@ -16,4 +16,4 @@ const UserGuard = d.guard(
   }))
 );
 
-export default UserGuard
+export default UserGuard;

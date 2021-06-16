@@ -1,25 +1,27 @@
 <script>
+// @ts-check
+
 export default {
-  name: 'UserSearchForm',
+  name: "UserSearchForm",
   data() {
     return {
-      username: ''
-    }
+      username: "",
+    };
   },
-}
+};
 </script>
 
 <template>
   <form @submit.prevent="$emit('submitted', username)">
     <el-input
-      placeholder="Pesquise o usuário"
       v-model="username"
+      placeholder="Pesquise o usuário"
       class="search-form__input"
     >
       <el-button
+        slot="append"
         class="search-form__button"
         native-type="submit"
-        slot="append"
         icon="el-icon-search"
       ></el-button>
     </el-input>

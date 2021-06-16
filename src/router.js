@@ -1,16 +1,16 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-const UserView = () => import('@/views/UserView.vue')
+import Vue from "vue";
+import Router from "vue-router";
+const UserView = () => import("@/views/UserView.vue");
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
-      component: UserView
-    }
-  ]
-})
+      path: "/",
+      component: UserView,
+    },
+  ],
+});

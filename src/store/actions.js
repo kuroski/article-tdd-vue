@@ -6,7 +6,7 @@ import api from "@/api";
  */
 
 export default {
-  /** 
+  /**
    * @param {import('vuex').ActionContext<State, State>} context
    * @param {{ username: string }} payload
    * @returns {Promise<User>}

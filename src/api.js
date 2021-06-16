@@ -7,8 +7,8 @@ const instance = axios.create({
 
 export default {
   /**
-   * @param {string} username 
-   * @returns 
+   * @param {string} username
+   * @returns
    */
   searchUser(username) {
     return instance
