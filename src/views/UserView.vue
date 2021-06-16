@@ -9,10 +9,19 @@ export default {
     VUserSearchForm,
     VUserProfile,
   },
+  computed: {
+    /** @return {import('@/types').User} */
+    user() {
+      return this.$store.state.user;
+    },
+  },
   methods: {
+    /**
+     * @param {string} username
+     */
     searchUser(username) {
       this.$store.dispatch("SEARCH_USER", { username });
-  },
+    },
   },
 };
 </script>

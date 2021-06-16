@@ -1,7 +1,14 @@
 <script>
+// @ts-check
+
+/**
+ * @typedef {import('@/types').User} User
+ */
+
 export default {
   name: "UserProfile",
   props: {
+    /** @type {import('vue').PropOptions<User>} */
     user: {
       type: Object,
       required: true,
