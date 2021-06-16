@@ -25,16 +25,21 @@
     "@vue/cli-plugin-babel": "^4.5.13",
     "@vue/cli-plugin-eslint": "^4.5.13",
     "@vue/cli-plugin-pwa": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
     "@vue/cli-plugin-unit-jest": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
     "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.0.2",
     "eslint": "^7.28.0",
     "eslint-plugin-jest-dom": "^3.9.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-testing-library": "^4.6.0",
     "eslint-plugin-vue": "^7.11.1",
     "flush-promises": "^1.0.0",
     "miragejs": "^0.1.41",
+    "prettier": "2.3.1",
     "vue-template-compiler": "^2.5.17"
   }
 }
