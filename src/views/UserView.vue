@@ -29,6 +29,6 @@ export default {
 <template>
   <div>
     <VUserSearchForm @submitted="searchUser" />
-    <VUserProfile :user="user" />
+    <VUserProfile v-if="user" :user="user" />
   </div>
 </template>
