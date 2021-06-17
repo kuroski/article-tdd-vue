@@ -1,21 +1,29 @@
 {
   "compilerOptions": {
     "checkJs": true,
-    "resolveJsonModule": true,
     "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "target": "esnext",
     "module": "esnext",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   },
+  "files": [
+    "./src/shims-vue.d.ts"
+  ],
+  "include": [
+    "src/**/*.vue",
+    "src/**/*.js",
+    "tests/**/*.js"
+  ],
   "exclude": [
     "dist",
     "node_modules",
