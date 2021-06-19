@@ -16,6 +16,7 @@ describe("UserView", () => {
       view,
     };
   };
+
   test("a user can search for Github usernames", async () => {
     const server = mockServer();
     const octocat = githubUserDecoder(server.schema.first("user")?.attrs);
