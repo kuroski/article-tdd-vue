@@ -1,7 +1,8 @@
 export type User = {
   avatarUrl: string;
+  login: string;
   name: string;
-  bio: string;
+  bio: string | undefined | null;
 };
 
 export type State = {
