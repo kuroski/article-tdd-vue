@@ -15,7 +15,6 @@ Vue.use(Vuex);
  * @type {import("vuex").StoreOptions<any>}
  */
 export const storeConfig = {
-  strict: true,
   state,
   mutations,
   actions,
