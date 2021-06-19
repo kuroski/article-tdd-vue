@@ -19,7 +19,7 @@ export default {
 
 <template>
   <div class="user-profile">
-    <img class="user-profile__avatar" :src="user.avatarUrl" />
+    <img class="user-profile__avatar" :src="user.avatarUrl" :alt="user.name" />
     <div class="user-profile__name">
       {{ user.name }}
     </div>
